@@ -126,6 +126,11 @@ TestBaseModel class:
 * `def test_user_module_docstring(self)` - Test for the user.py module docstring
 * `def test_user_class_docstring(self)` - Test for the User class docstring
 
+[web_dynamic](web_dynamic/) - Contains client side objects
+* X-`hbnb.py` - Serves objects to be displayed in the front-end
+* static/ - Holds static resources
+* static/scripts - JQuery scripts for manipulating DOM and communicating with the [API](api/)
+* templates - semi-static HTML files
 
 ## Examples of use
 ```
